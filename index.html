@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="PARASAT — студенческое телевидение">
+<title>PARASAT — Студенческое телевидение</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header"><div class="container header-inner">
+<a class="logo" href="#home"><b>P</b><span><strong>PARASAT</strong><small>СТУДЕНЧЕСКОЕ ТЕЛЕВИДЕНИЕ</small></span></a>
+<button class="menu" id="menu">☰</button>
+<nav id="nav"><a href="#home">Главная</a><a href="#news">Новости</a><a href="#programs">Передачи</a><a href="#videos">Видеоархив</a><a href="#projects">Проекты</a><a href="#about">О PARASAT</a></nav>
+<button class="theme" id="theme">☾</button>
+</div></header>
+<main>
+<section class="hero" id="home"><div class="container hero-grid"><div>
+<div class="eyebrow"><i></i> PARASAT NEWS</div><h1>Студенческое телевидение, которое рассказывает о жизни молодежи</h1><p>Новости университета, интервью, репортажи, проекты и истории людей глазами студентов.</p>
+<div class="actions"><a class="btn dark" href="#videos">Смотреть видео</a><a class="btn" href="#news">Все новости</a></div>
+</div><div class="hero-card"><div class="hero-top"><span>В ФОКУСЕ</span><b>PARASAT</b></div><div class="hero-picture"><span>▶</span></div><h3>Медиа глазами студентов</h3><p>Сюжеты, интервью и события, которые важны молодому поколению.</p></div></div></section>
+<div class="ticker"><div class="container"><b>PARASAT</b><span>Новости • Передачи • Интервью • Видеоархив • Проекты</span></div></div>
+<section class="section" id="news"><div class="container"><div class="section-head"><div><small>АКТУАЛЬНО</small><h2>Новости</h2></div><label class="search">⌕<input id="search" placeholder="Поиск по сайту..."></label></div>
+<div class="news-grid" id="newsGrid">
+<article class="news searchable" data-search="университет студенты образование новости"><div class="pic p1"><span>НОВОСТИ</span></div><div class="body"><small>PARASAT • Новости</small><h3>Главные события студенческой жизни</h3><p>Важные события университета, встречи, инициативы и достижения студентов.</p><a href="#videos">Смотреть сюжет →</a></div></article>
+<article class="news searchable" data-search="молодежь интервью люди студенты"><div class="pic p2"><span>ИНТЕРВЬЮ</span></div><div class="body"><small>PARASAT • Интервью</small><h3>Люди, которые создают университет</h3><p>Разговоры со студентами, преподавателями и гостями о важных темах.</p><a href="#programs">Наши передачи →</a></div></article>
+<article class="news searchable" data-search="культура творчество искусство мероприятия"><div class="pic p3"><span>КУЛЬТУРА</span></div><div class="body"><small>PARASAT • Культура</small><h3>Культурная жизнь глазами молодежи</h3><p>Творческие события, интересные люди и проекты, которые объединяют молодежь.</p><a href="#projects">Проекты →</a></div></article>
+<article class="news searchable" data-search="спорт соревнования студенты"><div class="pic p4"><span>СПОРТ</span></div><div class="body"><small>PARASAT • Спорт</small><h3>Студенческий спорт и большие цели</h3><p>Соревнования, команды, победы и истории тех, кто выбирает активную жизнь.</p><a href="#videos">Видеоархив →</a></div></article>
+<article class="news searchable" data-search="медиа журналистика репортаж"><div class="pic p5"><span>МЕДИА</span></div><div class="body"><small>PARASAT • Медиа</small><h3>Как создается студенческий сюжет</h3><p>От идеи и съемки до интервью, монтажа и выхода материала в эфир.</p><a href="#about">О PARASAT →</a></div></article>
+<article class="news searchable" data-search="город регион молодежные инициативы"><div class="pic p6"><span>РЕГИОН</span></div><div class="body"><small>PARASAT • Регион</small><h3>Молодежь и жизнь региона</h3><p>События города и региона через истории молодых людей и их инициативы.</p><a href="#news">Все материалы →</a></div></article>
+</div><p class="empty" id="empty">По вашему запросу ничего не найдено.</p></div></section>
+<section class="section alt" id="programs"><div class="container"><div class="section-head"><div><small>ЭФИР</small><h2>Передачи</h2></div></div><div class="programs">
+<article><b>01</b><h3>PARASAT NEWS</h3><p>Короткие новости и главные события университета и молодежной среды.</p><em>Новости</em></article>
+<article><b>02</b><h3>Лица</h3><p>Интервью с людьми, у которых есть своя история, опыт и интересный взгляд.</p><em>Интервью</em></article>
+<article><b>03</b><h3>Студенческий взгляд</h3><p>Репортажи о жизни студентов, учебе, событиях и молодежных инициативах.</p><em>Репортаж</em></article>
+<article><b>04</b><h3>Культура рядом</h3><p>Истории о культуре, творчестве, мероприятиях и культурной среде региона.</p><em>Культура</em></article>
+</div></div></section>
+<section class="section" id="videos"><div class="container"><div class="section-head"><div><small>АРХИВ</small><h2>Видеоархив</h2></div><select id="filter"><option value="all">Все видео</option><option value="news">Новости</option><option value="interview">Интервью</option><option value="report">Репортажи</option></select></div>
+<div class="videos">
+<article class="video searchable" data-category="news" data-search="новости университет студенты"><button class="thumb t1 play" data-title="Новости PARASAT">▶<i>02:15</i></button><div><small>Новости</small><h3>Новости PARASAT</h3></div></article>
+<article class="video searchable" data-category="interview" data-search="интервью студенты люди"><button class="thumb t2 play" data-title="Интервью">▶<i>04:32</i></button><div><small>Интервью</small><h3>Разговор с героем</h3></div></article>
+<article class="video searchable" data-category="report" data-search="репортаж событие молодежь"><button class="thumb t3 play" data-title="Студенческий репортаж">▶<i>03:48</i></button><div><small>Репортаж</small><h3>Студенческий репортаж</h3></div></article>
+<article class="video searchable" data-category="news" data-search="новости культура мероприятие"><button class="thumb t4 play" data-title="Культурная афиша">▶<i>01:56</i></button><div><small>Новости</small><h3>Культурная афиша</h3></div></article>
+<article class="video searchable" data-category="interview" data-search="интервью преподаватель университет"><button class="thumb t5 play" data-title="Лица PARASAT">▶<i>05:10</i></button><div><small>Интервью</small><h3>Лица PARASAT</h3></div></article>
+<article class="video searchable" data-category="report" data-search="репортаж город регион"><button class="thumb t6 play" data-title="Город глазами студентов">▶<i>06:21</i></button><div><small>Репортаж</small><h3>Город глазами студентов</h3></div></article>
+</div></div></section>
+<section class="section alt" id="projects"><div class="container"><div class="section-head"><div><small>ИНИЦИАТИВЫ</small><h2>Проекты</h2></div></div><div class="project-list">
+<article><b>01</b><div><h3>Медиаэкспедиция</h3><p>Студенческие съемочные группы отправляются за историями людей и событий региона.</p></div></article>
+<article><b>02</b><div><h3>Молодежный репортаж</h3><p>Проект о том, что волнует молодых людей сегодня: учеба, культура, работа и город.</p></div></article>
+<article><b>03</b><div><h3>Культурный маршрут</h3><p>Знакомство с культурными местами и людьми, которые развивают регион.</p></div></article>
+</div></div></section>
+<section class="about" id="about"><div class="container about-grid"><div><small>О ПРОЕКТЕ</small><h2>PARASAT — это студенческое телевидение</h2></div><div><p>PARASAT объединяет студентов, которые интересуются журналистикой, видео, интервью и современными медиа.</p><p>Здесь собраны новости, передачи, видеоматериалы и проекты, созданные студентами. Сайт может использоваться как цифровой архив и портфолио студенческого телевидения.</p><div class="stats"><div><b>01</b><span>Студенческое ТВ</span></div><div><b>02</b><span>Видео и репортажи</span></div><div><b>03</b><span>Молодежные проекты</span></div></div></div></div></section>
+</main>
+<footer><div class="container footer"><div><b>PARASAT</b><p>Студенческое телевидение</p></div><p>© 2026 PARASAT. Учебный медиапроект.</p></div></footer>
+<div class="modal" id="modal"><div class="modal-box"><button id="close">×</button><div class="modal-screen">▶</div><small>PARASAT VIDEO</small><h2 id="modalTitle">Видео</h2><p>Здесь можно разместить готовый видеосюжет PARASAT. Кнопка уже работает.</p></div></div>
+<script src="script.js"></script>
+</body></html>
